@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculator.HelloController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -51,7 +51,7 @@
         </Menu>
       </menus>
     </MenuBar>
-    <Label alignment="BOTTOM_LEFT" prefHeight="141.0" prefWidth="641.0">
+    <Label alignment="BOTTOM_LEFT" prefHeight="141.0" prefWidth="641.0" fx:id="welcomeText">
       <font>
         <Font size="42.0" />
       </font>
