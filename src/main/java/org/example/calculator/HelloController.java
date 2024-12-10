@@ -12,11 +12,11 @@ public class HelloController implements Initializable {
     @FXML
     private Label welcomeText;
 
-    /*@FXML
+    @FXML
     public void onPlusClick() {
         String str = welcomeText.getText();
         welcomeText.setText(str + "+");
-    }*/
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
