@@ -13,9 +13,33 @@ public class HelloController implements Initializable {
     private Label welcomeText;
 
     @FXML
+    public void onDeleteSymbol() {
+        String str = welcomeText.getText();
+        welcomeText.setText("");
+    }
+
+    @FXML
     public void onPlusClick() {
         String str = welcomeText.getText();
         welcomeText.setText(str + "+");
+    }
+
+    @FXML
+    public void onClosingPar() {
+        String str = welcomeText.getText();
+        welcomeText.setText(str + ")");
+    }
+
+    @FXML
+    public void onOpeningPar() {
+        String str = welcomeText.getText();
+        welcomeText.setText(str + "(");
+    }
+
+    @FXML
+    public void onMod() {
+        String str = welcomeText.getText();
+        welcomeText.setText(str + "(");
     }
 
     @Override
