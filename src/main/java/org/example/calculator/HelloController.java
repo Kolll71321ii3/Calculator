@@ -14,7 +14,6 @@ public class HelloController implements Initializable {
 
     @FXML
     public void onDeleteSymbol() {
-        String str = welcomeText.getText();
         welcomeText.setText("");
     }
 
@@ -99,7 +98,9 @@ public class HelloController implements Initializable {
     @FXML
     public void onModClick() {
         String str = welcomeText.getText();
-        welcomeText.setText(str + "mod");
+        if(!str.endsWith("mod")){
+            welcomeText.setText(str + "mod");
+        }
     }
 
     @FXML
