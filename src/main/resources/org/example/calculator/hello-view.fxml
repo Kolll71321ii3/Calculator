@@ -93,7 +93,7 @@
         <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="4" />
         <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="67.0" prefWidth="128.0" text="=" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.rowSpan="2" />
         <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onExponentiationClick" text="pow" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSqrtClick" text="sqrt" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onSqrtClick" text="√" GridPane.columnIndex="4" GridPane.rowIndex="1" />
         <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onPiClick" text="п" GridPane.columnIndex="4" />
         <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onPlusClick" text="+" GridPane.columnIndex="3" GridPane.rowIndex="4" />
         <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onMinusClick" text="-" GridPane.columnIndex="3" GridPane.rowIndex="3" />

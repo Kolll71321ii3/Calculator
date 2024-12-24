@@ -86,13 +86,15 @@ public class HelloController implements Initializable {
     @FXML
     public void onDivideClick() {
         String str = welcomeText.getText();
-        welcomeText.setText(str + "/");
+        if(!str.endsWith("/")){
+            welcomeText.setText(str + "/");
+        }
     }
 
     @FXML
     public void onSqrtClick() {
         String str = welcomeText.getText();
-        welcomeText.setText(str + "sqrt");
+        welcomeText.setText(str + (char)8730);
     }
 
     @FXML
@@ -106,7 +108,9 @@ public class HelloController implements Initializable {
     @FXML
     public void onPiClick() {
         String str = welcomeText.getText();
-        welcomeText.setText(str + "3,14");
+        if(!str.endsWith("3,14")){
+            welcomeText.setText(str + "3,14");
+        }
     }
 
     @FXML
